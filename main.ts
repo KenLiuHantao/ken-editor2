@@ -9,7 +9,6 @@ const config: IEditorConfig = {
     }as NodeModel],
     targetId: "app",
 };
-window.onload=function(){
+window.onload = () => {
     KenEditor2.initKenEditor2(config);
 };
-

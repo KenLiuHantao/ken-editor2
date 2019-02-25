@@ -3,7 +3,9 @@
  */
 import BaseCanvas from "./BaseCanvas";
 import IEditorConfig from "./ConfigModel";
+import LineListModel from "./LineListModel";
 import NodeListModel from "./NodeListModel";
+
 // 使用init方法尽量实现单例
 
 export default class KenEditor2 {
