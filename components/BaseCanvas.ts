@@ -3,7 +3,7 @@
  */
 class BaseCanvas {
     public ctx: any;
-    public canvas: any;
+    public canvas: HTMLCanvasElement;
     private build: boolean = false;
     constructor(id: string) {
         // 在传入id的dom下新建一个核心canvas
